@@ -1,13 +1,13 @@
-# Login Example using ROOM Database Android
+# Login Example using Room Database Android
 
-This is a very simple **Login Example of Room Database with LiveData** in Android. It takes the input from the UI, stores it in ROOM Database and displays back on the UI.
+This is a very simple **Login Example of Room Database with LiveData** in Android. It takes the input from the UI, stores it in Room Database and displays back on the UI.
 
-This example is for those beginners who want to learn **ROOM Database** for Android. ROOM Database is usually used to populate a large number of data from the database into a RecyclerView. This example follows the recommended Architecture Components pattern.
+This example is for those beginners who want to learn **Room Database** for Android. Room Database is usually used to populate a large number of data from the database into a RecyclerView. This example follows the recommended Architecture Components pattern.
 
 So Let's Get Started:
 
 1. What are the recommended Architecture Components? 
-2. What is ROOM Database?
+2. What is Room Database?
 3. Important Annotation or Components.
 4. Implementation Step-by-Step
 5. Conclusion
@@ -34,13 +34,13 @@ So Let's Get Started:
 **LiveData:** A data holder class that can be observed. Always holds/caches latest version of data. Notifies its observers when the data has changed. LiveData is lifecycle aware. UI components just observe relevant data and don't stop or resume observation. LiveData automatically manages all of this since it's aware of the relevant lifecycle status changes while observing.
 
 
-## **What is ROOM Database?**
+## **What is Room Database?**
 
 **Answer:** The Room persistence library provides an abstraction layer over SQLite to allow for more robust database access while harnessing the full power of SQLite.
 
 The library helps you create a cache of your app's data on a device that's running your app. This cache, which serves as your app's single source of truth, allows users to view a consistent copy of key information within your app, regardless of whether users have an internet connection.
 
-### **Anatomy of ROOM**
+### **Anatomy of Room**
 
 <img src="https://image.ibb.co/f4fox9/1_n_PLp8_Xs_B7e529f82_Xgddy_A.png" alt="1_n_PLp8_Xs_B7e529f82_Xgddy_A" />
 
@@ -491,52 +491,3 @@ And, That is it.
 Hopefully this guide introduced you to a lesser known yet useful form of Android application data storage called **ROOM**.
 
 Feel free to reach me at any time on [LinkedIn](https://www.linkedin.com/in/umangburman/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

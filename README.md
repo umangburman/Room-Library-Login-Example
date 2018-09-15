@@ -268,7 +268,7 @@ public class LoginViewModel extends AndroidViewModel {
 }
 ```
 
-### **Step8:** Setup DataBinding listener:
+### **Step7:** Setup DataBinding listener:
 
 ```Java
 public interface Listener {
@@ -287,7 +287,7 @@ Make sure to add this in your activity_main.xml:
 </data>
 ```
 
-### **Step9:** Your MainActivity.java:
+### **Step8:** Your MainActivity.java:
 
 ```Java
 public class MainActivity extends AppCompatActivity implements Listener {
